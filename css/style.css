@@ -1,0 +1,109 @@
+:root {
+    --text-color-white: #E9E9E9;
+    --text-color-black: #333333;
+    --text-color-green: #28A745;
+}
+
+
+body {
+    font-family: 'Open Sans';
+    color: var(--text-color-black);
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+
+}
+
+.nav-main {
+    display: flex;
+    color: var(--text-color-white);
+    margin-right: auto;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: auto;
+    gap: 38px;
+    align-items: center;
+}
+
+.logo {
+    color: var(--text-color-white);
+    font-size: 35px;
+    line-height: 1.21;
+
+}
+
+.logo-green {
+    color: var(--text-color-green);
+    
+
+}
+
+.nav-link {
+    font-size: 18px;
+    line-height: 1.56;
+    
+}
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+}
+
+
+.hero-section {
+    color: var(--text-color-white);
+    text-align: center;
+    padding-top: 280px;
+    padding-bottom: 285px;
+
+}
+
+
+.hero-title {
+font-weight: 300;
+font-size: 55px;
+line-height: 1.2;
+margin-bottom: 25px;
+}
+
+
+.hero-text {
+
+    font-size: 22px;
+   line-height: 1.67;
+   margin-bottom: 30px;
+}
+
+
+.hero-link {
+    background-color: var(--text-color-green);
+    width: 165px;
+    height: 48px;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+
+
+}
