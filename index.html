@@ -5,91 +5,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
     <title>Document</title>
   </head>
   <body>
     <header>
-     <div class="container"> <!-- Logo -->
-      <nav class="nav-main">
-        <a href="" class="logo"><span class="logo-green">Finance</span> Ledger</a>
+      <div class="container">
+        <!-- Logo -->
+        <nav class="nav-main">
+          <a href="" class="logo"
+            ><span class="logo-green">Finance</span> Ledger</a
+          >
 
-        <!-- Nav -->
-        <ul class="nav-list">
-          <li><a href="" class="nav-link">Home</a></li>
-          <li><a href="" class="nav-link">About</a></li>
-          <li><a href="" class="nav-link">Cases</a></li>
-          <li><a href="" class="nav-link">Blog</a></li>
-          <li><a href="" class="nav-link">Contact</a></li>
-        </ul>
-      </nav></div>
-      </header>
+          <!-- Nav -->
+          <ul class="nav-list">
+            <li><a href="" class="nav-link">Home</a></li>
+            <li><a href="" class="nav-link">About</a></li>
+            <li><a href="" class="nav-link">Cases</a></li>
+            <li><a href="" class="nav-link">Blog</a></li>
+            <li><a href="" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-
-
-      <main>
-
-        <!-- hero -->
-        <div class="container"><section class="section hero-section">
+    <main>
+      <!-- hero -->
+      <div class="container">
+        <section class="section hero-section">
           <h1 class="hero-title">The Sky Is The Limit</h1>
           <p class="hero-text">We provide world class financial assistance</p>
           <a href="#" class="hero-link">Read More</a>
-        </section></div>
+        </section>
+      </div>
 
+      <section class="section">
+        <h2>Benefits</h2>
+        <ul>
+          <li>
+            <img src="" alt="" />
+            <h3>Investmant Banking</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequatur, necessitatibus!
+            </p>
+          </li>
+          <li>
+            <img src="" alt="" />
+            <h3>Portfolio Manager</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequatur, necessitatibus!
+            </p>
+          </li>
+          <li>
+            <img src="" alt="" />
+            <h3>Tax & Custudio</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consequatur, necessitatibus!
+            </p>
+          </li>
+        </ul>
+      </section>
 
+      <section class="section">
+        <p>What you are looking for</p>
+        <h2>We provide bespoke solutions</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
+        <a href="#">Read More</a>
+        <img
+          src="./img/team.jpg"
+          alt="men in black coats"
+          width="680"
+          height="460"
+        />
+      </section>
+    </main>
 
-        <section class="section">
-          <h2>Benefits</h2>
-          <ul>
-            <li>
-              <img src="" alt="" />
-              <h3>Investmant Banking</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consequatur, necessitatibus!
-              </p>
+    <!-- --------Request Callback------- -->
+
+    <section class="callback">
+      <div class="callback-position container">
+        <img
+          class="callback-img"
+          src="./img/callback.jpg"
+          alt="a man looks at a laptop"
+        />
+        <div class="callback-wrap">
+          <h2 class="callback-title">Request Callback</h2>
+          <form class="form-input">
+            <input
+              class="callback-input callback-name"
+              type="text"
+              name="enter your name"
+              placeholder="Enter your name"
+              minlength="2"
+              pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+            />
+            <input
+              class="callback-input callback-email"
+              type="email"
+              name="email"
+              placeholder="Enter email*"
+              required
+            />
+            <button type="submit" class="callback-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------Footer-------->
+    <section class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="" class="footer-link">
+                <svg class="icon" width="35" height="35">
+                  <use href="./img/icon.svg#icon-13"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h3>Portfolio Manager</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consequatur, necessitatibus!
-              </p>
+            <li class="footer-item">
+              <a href="" class="footer-link">
+                <svg class="icon" width="35" height="35">
+                  <use href="./img/icon.svg#icon-12"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <img src="" alt="" />
-              <h3>Tax & Custudio</h3>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consequatur, necessitatibus!
-              </p>
+            <li class="footer-item">
+              <a href="" class="footer-link">
+                <svg class="icon" width="35" height="35">
+                  <use href="./img/icon.svg#icon-11"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a href="" class="footer-link">
+                <svg class="icon" width="35" height="35">
+                  <use href="./img/icon.svg#icon-1"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </section>
-        
-        <section class="section">
-          <p>What you are looking for</p>
-          <h2>We provide bespoke solutions</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
-            harum illum dolore explicabo ab dolores itaque rerum temporibus
-            doloribus iste maiores deleniti?
-          </p>
-          <a href="#">Read More</a>
-          <img
-            src="./img/team.jpg"
-            alt="men in black coats"
-            width="680"
-            height="460"
-          />
-        </section>
-      </main>
-    
+          <p class="copyright">Copyright © 2021 - FinanceLedger</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
