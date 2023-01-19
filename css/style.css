@@ -6,7 +6,6 @@
     --color-white: #ffffff;
 }
 
-
 body {
     font-family: 'Open Sans';
     color: var(--text-color-black);
@@ -64,9 +63,7 @@ p {
 .nav-link {
     font-size: 18px;
     line-height: 1.56;
-
 }
-
 
 .container {
     padding-left: 15px;
@@ -74,7 +71,6 @@ p {
     margin-right: auto;
     margin-left: auto;
     width: 1360px;
-    border: 1px solid red;
 }
 
 img {
@@ -82,7 +78,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 
 .hero-section {
     color: var(--text-color-white);
@@ -92,7 +87,6 @@ img {
 
 }
 
-
 .hero-title {
     font-weight: 300;
     font-size: 55px;
@@ -100,14 +94,12 @@ img {
     margin-bottom: 25px;
 }
 
-
 .hero-text {
 
     font-size: 22px;
     line-height: 1.67;
     margin-bottom: 30px;
 }
-
 
 .hero-link {
     background-color: var(--text-color-green);
@@ -119,9 +111,6 @@ img {
 
 
 }
-
-
-
 
 /* ------Request Callback------- */
 
@@ -212,4 +201,68 @@ img {
     line-height: 1.56;
     text-align: center;
     color: var(--color-white);
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style: none;
+}
+
+.business-cases {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.before-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    text-align: center;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.title-cases {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    text-align: center;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.lorem-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.cases-icon-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 8px;
+    gap: 8px;
 }
