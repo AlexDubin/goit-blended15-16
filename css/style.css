@@ -107,9 +107,54 @@ img {
     height: 48px;
     border-radius: 5px;
     padding: 10px 30px;
+}
 
+.blog-list{
+	display: flex;
+}
 
+.blog-inform{
+	padding-top: 112px;
+	padding-bottom: 113px;
+	padding-left: 30px;
+	background-color: #0284D0;
+}
 
+.blog-date{
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.65;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+}
+
+.blog-title{
+	font-family: inherit;
+	font-weight: 300;
+	font-size: 38px;
+	line-height: 1.45;
+	color: #FFFFFF;
+	margin-bottom: 26px;
+}
+
+.blog-text{
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	max-width: 606px;
+	margin-bottom: 17px;
+}
+
+.blog-buttom{
+	width: 196px;
+	height: 50px;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	background-color: transparent;
 }
 
 /*============================= OUR TEAM =============================*/
