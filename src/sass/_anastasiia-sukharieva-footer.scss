@@ -1,0 +1,72 @@
+.footer-container {
+    padding-top: 82px;
+}
+
+.footer-logo-block {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    padding: 0;
+}
+
+.footer-logo-icon {
+    text-align: center;
+}
+
+
+.footer-logo-text {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 125%;
+    align-items: center;
+    color: $top-title-color-dark;
+
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-logo-block {
+    width: 393px;
+}
+
+.footer-overlay-soc {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-pages,
+.footer-servises {
+    display: block;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-contacts {
+    width: 258px;
+}
+
+.footer-nav-link {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 300%;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: $top-title-color-dark ;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
