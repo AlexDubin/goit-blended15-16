@@ -1,0 +1,116 @@
+.team {
+    padding-top: 198px;
+    padding-bottom: 198px;
+    background-color: $top-section-background-color;
+
+}
+
+.team-title {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: $top-title-color-dark;
+    margin-bottom: 64px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.team-list-item {
+    width: 283px;
+    height: 433px;
+    margin: 10px;
+}
+
+.team-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: $top-title-color-dark;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.team-thamb {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.team-overlay {
+    position: absolute;
+    padding: 70px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: $top-time-animation $top-cubic-bezier;
+    transition-property: transform;
+
+}
+
+.team-list-item:hover .team-overlay,
+.team-list-item:focus .team-overlay {
+    transform: translateY(0);
+}
+
+.team-overlay-name {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: $top-title-color-dark;
+}
+
+.team-overlay-prof,
+.overlay-contacts-link {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: $top-title-color-dark ;
+}
+
+.team-overlay-contacts {
+    text-align: center;
+
+}
+
+
+.team-overlay-soc {
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+}
